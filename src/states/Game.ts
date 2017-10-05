@@ -10,5 +10,9 @@ module Castlevania {
 
             this.state.start('Boot');
         }
+
+        foo() {
+            return 'hello';
+        }
     }
 }
